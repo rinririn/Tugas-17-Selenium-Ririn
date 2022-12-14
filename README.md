@@ -1,2 +1,2 @@
 # Tugas-17-Selenium-Ririn
-Selenium Python from https://www.saucedemo.com/
+Selenium Python. Automation Test from https://www.saucedemo.com/
