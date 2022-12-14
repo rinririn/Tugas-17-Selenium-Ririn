@@ -48,7 +48,7 @@ class LoginTest(unittest.TestCase):
         driver.find_element(By.ID,"add-to-cart-sauce-labs-backpack").click() #add to cart
         driver.find_element(By.ID,"add-to-cart-sauce-labs-bike-light").click() #add to cart
         driver.find_element(By.ID,"shopping_cart_container").click() # buka keranjang
-        driver.find_element(By.ID,"checkout").click() # buka keranjang
+        driver.find_element(By.ID,"checkout").click() # checkout
         driver.find_element(By.ID, "first-name").send_keys("standard") # isi nama depan
         driver.find_element(By.ID, "last-name").send_keys("user") # isi nama belakang
         driver.find_element(By.ID, "postal-code").send_keys("1234") # isi nama belakang
